@@ -27,4 +27,9 @@ class FizzBuzzTest {
     void GetValue_Input2_Return2() {
         AssertGetValue("2", 2);
     }
+
+    @Test
+    void GetValue_Input3_Return3() {
+        AssertGetValue("Fizz", 3);
+    }
 }
