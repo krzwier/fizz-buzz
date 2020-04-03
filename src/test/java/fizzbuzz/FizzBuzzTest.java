@@ -5,23 +5,26 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FizzBuzzTest {
+
+    /**
+     * Helper method to set up fizzbuzz instance, get value, 
+     * and test assertion
+     */
+    private void AssertGetValue(String expected, int input){
+        FizzBuzz fb = new FizzBuzz();
+
+        String result = fb.getValue(input);
+
+        assertEquals(expected, result);
+    }
     
     @Test
     void GetValue_Input1_Return1() {
-
-        FizzBuzz fb = new FizzBuzz();
-
-        String result = fb.getValue(1);
-
-        assertEquals("1", result);
+        AssertGetValue("1", 1);
     }
 
     @Test
     void GetValue_Input2_Return2() {
-        FizzBuzz fb = new FizzBuzz();
-
-        String result = fb.getValue(2);
-
-        assertEquals("2", result);
+        AssertGetValue("2", 2);
     }
 }
