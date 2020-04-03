@@ -11,9 +11,7 @@ class FizzBuzzTest {
      * and test assertion
      */
     private void AssertGetValue(String expected, int input){
-        FizzBuzz fb = new FizzBuzz();
-
-        String result = fb.getValue(input);
+        String result = FizzBuzz.getValue(input);
 
         assertEquals(expected, result);
     }
