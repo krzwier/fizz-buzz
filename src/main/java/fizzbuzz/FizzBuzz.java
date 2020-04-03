@@ -5,11 +5,8 @@ package fizzbuzz;
  */
 public final class FizzBuzz {
     
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+
+	public String getValue(int i) {
+		return null;
+	}
 }

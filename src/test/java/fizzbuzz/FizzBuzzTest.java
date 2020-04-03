@@ -4,15 +4,18 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Unit test for simple App.
- */
 class FizzBuzzTest {
+    
     /**
-     * Rigorous Test.
+     * Test the number 1
      */
     @Test
-    void testApp() {
-        assertEquals(1, 1);
+    void GetValue_Input1_Return1() {
+
+        FizzBuzz fb = new FizzBuzz();
+
+        String result = fb.getValue(1);
+
+        assertEquals("1", result);
     }
 }
