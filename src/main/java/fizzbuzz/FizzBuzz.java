@@ -7,6 +7,6 @@ public final class FizzBuzz {
     
 
 	public String getValue(int i) {
-		return null;
+		return "1";
 	}
 }
