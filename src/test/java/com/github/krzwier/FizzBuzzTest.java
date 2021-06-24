@@ -1,4 +1,4 @@
-package fizzbuzz;
+package com.github.krzwier;
 
 import org.junit.jupiter.api.Test;
 

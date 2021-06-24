@@ -1,4 +1,4 @@
-package fizzbuzz;
+package com.github.krzwier;
 
 
 public final class FizzBuzz {
@@ -33,8 +33,8 @@ public final class FizzBuzz {
     }
 
     public static void main(String[] args) {
-        for (int i = 1; i <= 100; i++) {
-            System.out.println(getValue(i));
+        for (int i = 1; i <= 2000; i++) {
+            System.out.print(getValue(i) + " ");
         }
         
     }
